@@ -8,9 +8,27 @@
 import SwiftUI
 
 struct ContentView: View {
+    
+    @State private var data: [String] = ["Pull to fetch data..."]
+    
     var body: some View {
-        Text("Hello, world!")
-            .padding()
+        NavigationView {
+            VStack {
+                List(data, id: \.self) { item in
+                    Text(item)
+                }
+            }
+            .navigationTitle("Refreshable")
+            .refreshable { updateData() }
+        }
+        
+    }
+    
+    func updateData() {
+        let randomLetters = ["a", "b", "c", "d", "e", "f", "g", "h", "i", "j"]
+        for _ in 1...10 {
+            data.append(randomLetters.randomElement()!)
+        }
     }
 }
 
