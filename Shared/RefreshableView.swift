@@ -1,5 +1,5 @@
 //
-//  ContentView.swift
+//  RefreshableView.swift
 //  Shared
 //
 //  Created by Aidan Pendlebury on 09/06/2021.
@@ -7,7 +7,7 @@
 
 import SwiftUI
 
-struct ContentView: View {
+struct RefreshableView: View {
     
     @State private var data: [String] = ["Pull to fetch data..."]
     
@@ -34,6 +34,6 @@ struct ContentView: View {
 
 struct ContentView_Previews: PreviewProvider {
     static var previews: some View {
-        ContentView()
+        RefreshableView()
     }
 }
