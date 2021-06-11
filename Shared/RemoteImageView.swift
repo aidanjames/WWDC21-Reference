@@ -9,7 +9,13 @@ import SwiftUI
 
 struct RemoteImageView: View {
     var body: some View {
-        Text(/*@START_MENU_TOKEN@*/"Hello, World!"/*@END_MENU_TOKEN@*/)
+        AsyncImage(url: URL(string: "https://avatars.githubusercontent.com/u/44542889?v=4")) { image in
+            image.resizable()
+        } placeholder: {
+            Color.secondary.opacity(0.5)
+        }
+        .frame(width: 128, height: 128)
+        .clipShape(Circle())
     }
 }
 
