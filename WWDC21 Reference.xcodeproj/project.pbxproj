@@ -25,6 +25,12 @@
 		3D1D42D726713A3200720834 /* BlurEffectView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D1D42D526713A3200720834 /* BlurEffectView.swift */; };
 		3D1D42D926713A4E00720834 /* AlertsAndActionSheetsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D1D42D826713A4E00720834 /* AlertsAndActionSheetsView.swift */; };
 		3D1D42DA26713A4E00720834 /* AlertsAndActionSheetsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D1D42D826713A4E00720834 /* AlertsAndActionSheetsView.swift */; };
+		3DDEA92A2674E960009D557A /* DismissActionView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3DDEA9292674E960009D557A /* DismissActionView.swift */; };
+		3DDEA92B2674E960009D557A /* DismissActionView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3DDEA9292674E960009D557A /* DismissActionView.swift */; };
+		3DDEA92D2674ECF5009D557A /* KeyboardDismissButtonView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3DDEA92C2674ECF5009D557A /* KeyboardDismissButtonView.swift */; };
+		3DDEA92E2674ECF5009D557A /* KeyboardDismissButtonView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3DDEA92C2674ECF5009D557A /* KeyboardDismissButtonView.swift */; };
+		3DDEA9302674F322009D557A /* TaskModifierView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3DDEA92F2674F322009D557A /* TaskModifierView.swift */; };
+		3DDEA9312674F322009D557A /* TaskModifierView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3DDEA92F2674F322009D557A /* TaskModifierView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -39,6 +45,9 @@
 		3D1D42D226713A2500720834 /* RemoteImageView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RemoteImageView.swift; sourceTree = "<group>"; };
 		3D1D42D526713A3200720834 /* BlurEffectView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BlurEffectView.swift; sourceTree = "<group>"; };
 		3D1D42D826713A4E00720834 /* AlertsAndActionSheetsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AlertsAndActionSheetsView.swift; sourceTree = "<group>"; };
+		3DDEA9292674E960009D557A /* DismissActionView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DismissActionView.swift; sourceTree = "<group>"; };
+		3DDEA92C2674ECF5009D557A /* KeyboardDismissButtonView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KeyboardDismissButtonView.swift; sourceTree = "<group>"; };
+		3DDEA92F2674F322009D557A /* TaskModifierView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TaskModifierView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -77,8 +86,11 @@
 				3D1D42CF26713A1100720834 /* SwipeActionsView.swift */,
 				3D1D42D226713A2500720834 /* RemoteImageView.swift */,
 				3D1D42D526713A3200720834 /* BlurEffectView.swift */,
-				3D1D42AF2671349100720834 /* Assets.xcassets */,
 				3D1D42D826713A4E00720834 /* AlertsAndActionSheetsView.swift */,
+				3DDEA9292674E960009D557A /* DismissActionView.swift */,
+				3DDEA92C2674ECF5009D557A /* KeyboardDismissButtonView.swift */,
+				3DDEA92F2674F322009D557A /* TaskModifierView.swift */,
+				3D1D42AF2671349100720834 /* Assets.xcassets */,
 			);
 			path = Shared;
 			sourceTree = "<group>";
@@ -190,10 +202,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				3DDEA92D2674ECF5009D557A /* KeyboardDismissButtonView.swift in Sources */,
 				3D1D42CD26713A0300720834 /* SearchBarView.swift in Sources */,
 				3D1D42CA267138E200720834 /* BottomView.swift in Sources */,
 				3D1D42D026713A1100720834 /* SwipeActionsView.swift in Sources */,
 				3D1D42D626713A3200720834 /* BlurEffectView.swift in Sources */,
+				3DDEA9302674F322009D557A /* TaskModifierView.swift in Sources */,
+				3DDEA92A2674E960009D557A /* DismissActionView.swift in Sources */,
 				3D1D42BD2671349100720834 /* RefreshableView.swift in Sources */,
 				3D1D42D926713A4E00720834 /* AlertsAndActionSheetsView.swift in Sources */,
 				3D1D42D326713A2500720834 /* RemoteImageView.swift in Sources */,
@@ -205,10 +220,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				3DDEA92E2674ECF5009D557A /* KeyboardDismissButtonView.swift in Sources */,
 				3D1D42CE26713A0300720834 /* SearchBarView.swift in Sources */,
 				3D1D42CB267138E200720834 /* BottomView.swift in Sources */,
 				3D1D42D126713A1100720834 /* SwipeActionsView.swift in Sources */,
 				3D1D42D726713A3200720834 /* BlurEffectView.swift in Sources */,
+				3DDEA9312674F322009D557A /* TaskModifierView.swift in Sources */,
+				3DDEA92B2674E960009D557A /* DismissActionView.swift in Sources */,
 				3D1D42BE2671349100720834 /* RefreshableView.swift in Sources */,
 				3D1D42DA26713A4E00720834 /* AlertsAndActionSheetsView.swift in Sources */,
 				3D1D42D426713A2500720834 /* RemoteImageView.swift in Sources */,
