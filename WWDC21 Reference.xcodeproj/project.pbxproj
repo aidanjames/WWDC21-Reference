@@ -13,8 +13,6 @@
 		3D1D42BE2671349100720834 /* RefreshableView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D1D42AE2671348F00720834 /* RefreshableView.swift */; };
 		3D1D42BF2671349100720834 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3D1D42AF2671349100720834 /* Assets.xcassets */; };
 		3D1D42C02671349100720834 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3D1D42AF2671349100720834 /* Assets.xcassets */; };
-		3D1D42CA267138E200720834 /* BottomView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D1D42C9267138E200720834 /* BottomView.swift */; };
-		3D1D42CB267138E200720834 /* BottomView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D1D42C9267138E200720834 /* BottomView.swift */; };
 		3D1D42CD26713A0300720834 /* SearchBarView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D1D42CC26713A0300720834 /* SearchBarView.swift */; };
 		3D1D42CE26713A0300720834 /* SearchBarView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D1D42CC26713A0300720834 /* SearchBarView.swift */; };
 		3D1D42D026713A1100720834 /* SwipeActionsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D1D42CF26713A1100720834 /* SwipeActionsView.swift */; };
@@ -39,7 +37,6 @@
 		3D1D42AF2671349100720834 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		3D1D42B42671349100720834 /* WWDC21 Reference.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "WWDC21 Reference.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		3D1D42BA2671349100720834 /* WWDC21 Reference.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "WWDC21 Reference.app"; sourceTree = BUILT_PRODUCTS_DIR; };
-		3D1D42C9267138E200720834 /* BottomView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BottomView.swift; sourceTree = "<group>"; };
 		3D1D42CC26713A0300720834 /* SearchBarView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchBarView.swift; sourceTree = "<group>"; };
 		3D1D42CF26713A1100720834 /* SwipeActionsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwipeActionsView.swift; sourceTree = "<group>"; };
 		3D1D42D226713A2500720834 /* RemoteImageView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RemoteImageView.swift; sourceTree = "<group>"; };
@@ -81,7 +78,6 @@
 			children = (
 				3D1D42AD2671348F00720834 /* WWDC21_ReferenceApp.swift */,
 				3D1D42AE2671348F00720834 /* RefreshableView.swift */,
-				3D1D42C9267138E200720834 /* BottomView.swift */,
 				3D1D42CC26713A0300720834 /* SearchBarView.swift */,
 				3D1D42CF26713A1100720834 /* SwipeActionsView.swift */,
 				3D1D42D226713A2500720834 /* RemoteImageView.swift */,
@@ -204,7 +200,6 @@
 			files = (
 				3DDEA92D2674ECF5009D557A /* KeyboardDismissButtonView.swift in Sources */,
 				3D1D42CD26713A0300720834 /* SearchBarView.swift in Sources */,
-				3D1D42CA267138E200720834 /* BottomView.swift in Sources */,
 				3D1D42D026713A1100720834 /* SwipeActionsView.swift in Sources */,
 				3D1D42D626713A3200720834 /* BlurEffectView.swift in Sources */,
 				3DDEA9302674F322009D557A /* TaskModifierView.swift in Sources */,
@@ -222,7 +217,6 @@
 			files = (
 				3DDEA92E2674ECF5009D557A /* KeyboardDismissButtonView.swift in Sources */,
 				3D1D42CE26713A0300720834 /* SearchBarView.swift in Sources */,
-				3D1D42CB267138E200720834 /* BottomView.swift in Sources */,
 				3D1D42D126713A1100720834 /* SwipeActionsView.swift in Sources */,
 				3D1D42D726713A3200720834 /* BlurEffectView.swift in Sources */,
 				3DDEA9312674F322009D557A /* TaskModifierView.swift in Sources */,

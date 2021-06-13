@@ -8,8 +8,26 @@
 import SwiftUI
 
 struct SwipeActionsView: View {
+    
+    @State private var tmsTeam = ["Aidan", "Ian", "Terry", "Wayne", "Jon", "Roo", "Cliff"]
+    
     var body: some View {
-        Text(/*@START_MENU_TOKEN@*/"Hello, World!"/*@END_MENU_TOKEN@*/)
+        NavigationView {
+            List {
+                ForEach(tmsTeam, id: \.self) { member in
+                    Text(member)
+                        .swipeActions(allowsFullSwipe: false) {
+                            Button(action: { print("This!") } ) {
+                                Text("Print")
+                            }
+                            Button(role: .destructive, action: { print("That!") } ) {
+                                Image(systemName: "trash")
+                            }
+                        }
+                }
+                .navigationTitle("Members")
+            }
+        }
     }
 }
 
