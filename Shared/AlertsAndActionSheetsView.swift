@@ -8,8 +8,18 @@
 import SwiftUI
 
 struct AlertsAndActionSheetsView: View {
+    @State private var showingAlert = false
+    
     var body: some View {
-        Text(/*@START_MENU_TOKEN@*/"Hello, World!"/*@END_MENU_TOKEN@*/)
+        Button("Show alert") {
+            showingAlert = true
+        }
+        .alert("This is my alert", isPresented: $showingAlert) {
+            Button("Cancel", role: .cancel) { }
+            Button("Do something", role: .destructive) {
+                print("This is doing something")
+            }
+        }
     }
 }
 

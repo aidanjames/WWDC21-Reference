@@ -11,7 +11,7 @@ import SwiftUI
 struct WWDC21_ReferenceApp: App {
     var body: some Scene {
         WindowGroup {
-            SwipeActionsView()
+            AlertsAndActionSheetsView()
         }
     }
 }
