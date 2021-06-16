@@ -25,6 +25,8 @@
 		3D1D42DA26713A4E00720834 /* AlertsAndActionSheetsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D1D42D826713A4E00720834 /* AlertsAndActionSheetsView.swift */; };
 		3D665CBF267917DA00A6C268 /* ButtonControlsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D665CBE267917DA00A6C268 /* ButtonControlsView.swift */; };
 		3D665CC0267917DA00A6C268 /* ButtonControlsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D665CBE267917DA00A6C268 /* ButtonControlsView.swift */; };
+		3D73C500267A6F0F006C2843 /* ConfirmationDialogView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D73C4FF267A6F0F006C2843 /* ConfirmationDialogView.swift */; };
+		3D73C501267A6F0F006C2843 /* ConfirmationDialogView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D73C4FF267A6F0F006C2843 /* ConfirmationDialogView.swift */; };
 		3DDEA92A2674E960009D557A /* DismissActionView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3DDEA9292674E960009D557A /* DismissActionView.swift */; };
 		3DDEA92B2674E960009D557A /* DismissActionView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3DDEA9292674E960009D557A /* DismissActionView.swift */; };
 		3DDEA92D2674ECF5009D557A /* KeyboardDismissButtonView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3DDEA92C2674ECF5009D557A /* KeyboardDismissButtonView.swift */; };
@@ -45,6 +47,7 @@
 		3D1D42D526713A3200720834 /* BlurEffectView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BlurEffectView.swift; sourceTree = "<group>"; };
 		3D1D42D826713A4E00720834 /* AlertsAndActionSheetsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AlertsAndActionSheetsView.swift; sourceTree = "<group>"; };
 		3D665CBE267917DA00A6C268 /* ButtonControlsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ButtonControlsView.swift; sourceTree = "<group>"; };
+		3D73C4FF267A6F0F006C2843 /* ConfirmationDialogView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ConfirmationDialogView.swift; sourceTree = "<group>"; };
 		3DDEA9292674E960009D557A /* DismissActionView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DismissActionView.swift; sourceTree = "<group>"; };
 		3DDEA92C2674ECF5009D557A /* KeyboardDismissButtonView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KeyboardDismissButtonView.swift; sourceTree = "<group>"; };
 		3DDEA92F2674F322009D557A /* TaskModifierView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TaskModifierView.swift; sourceTree = "<group>"; };
@@ -88,6 +91,7 @@
 				3DDEA9292674E960009D557A /* DismissActionView.swift */,
 				3DDEA92C2674ECF5009D557A /* KeyboardDismissButtonView.swift */,
 				3DDEA92F2674F322009D557A /* TaskModifierView.swift */,
+				3D73C4FF267A6F0F006C2843 /* ConfirmationDialogView.swift */,
 				3D1D42AF2671349100720834 /* Assets.xcassets */,
 				3D1D42D526713A3200720834 /* BlurEffectView.swift */,
 				3D665CBE267917DA00A6C268 /* ButtonControlsView.swift */,
@@ -213,6 +217,7 @@
 				3D1D42D926713A4E00720834 /* AlertsAndActionSheetsView.swift in Sources */,
 				3D1D42D326713A2500720834 /* RemoteImageView.swift in Sources */,
 				3D1D42BB2671349100720834 /* WWDC21_ReferenceApp.swift in Sources */,
+				3D73C500267A6F0F006C2843 /* ConfirmationDialogView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -231,6 +236,7 @@
 				3D1D42DA26713A4E00720834 /* AlertsAndActionSheetsView.swift in Sources */,
 				3D1D42D426713A2500720834 /* RemoteImageView.swift in Sources */,
 				3D1D42BC2671349100720834 /* WWDC21_ReferenceApp.swift in Sources */,
+				3D73C501267A6F0F006C2843 /* ConfirmationDialogView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
