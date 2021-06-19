@@ -9,10 +9,30 @@ import SwiftUI
 
 struct ButtonControlsView: View {
     var body: some View {
-        Button("Normal button") {
-            // This
+        VStack {
+            
+            Button {
+                // Do this
+            } label: {
+                Text("Do this")
+                    .frame(maxWidth: .infinity)
+            }
+            .buttonStyle(.bordered)
+            .controlSize(.large)
+            .controlProminence(.increased)
+            .padding(.horizontal)
+            
+            Button {
+                // Don't do this
+            } label: {
+                Text("Not this")
+                    .frame(maxWidth: .infinity)
+            }
+            .buttonStyle(.bordered)
+            .controlSize(.large)
+            .controlProminence(.standard)
+            .padding(.horizontal)
         }
-        .buttonStyle(.bordered)
     }
 }
 
