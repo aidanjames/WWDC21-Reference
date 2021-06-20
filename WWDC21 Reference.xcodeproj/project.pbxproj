@@ -92,9 +92,9 @@
 				3DDEA92C2674ECF5009D557A /* KeyboardDismissButtonView.swift */,
 				3DDEA92F2674F322009D557A /* TaskModifierView.swift */,
 				3D73C4FF267A6F0F006C2843 /* ConfirmationDialogView.swift */,
+				3D665CBE267917DA00A6C268 /* ButtonControlsView.swift */,
 				3D1D42AF2671349100720834 /* Assets.xcassets */,
 				3D1D42D526713A3200720834 /* BlurEffectView.swift */,
-				3D665CBE267917DA00A6C268 /* ButtonControlsView.swift */,
 			);
 			path = Shared;
 			sourceTree = "<group>";

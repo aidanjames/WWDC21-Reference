@@ -9,12 +9,12 @@ import SwiftUI
 
 struct ButtonControlsView: View {
     var body: some View {
-        VStack {
+        VStack(spacing: 20) {
             
             Button {
                 // Do this
             } label: {
-                Text("Do this")
+                Text("large, increased prominence")
                     .frame(maxWidth: .infinity)
             }
             .buttonStyle(.bordered)
@@ -25,11 +25,33 @@ struct ButtonControlsView: View {
             Button {
                 // Don't do this
             } label: {
-                Text("Not this")
+                Text("large, standard prominence")
                     .frame(maxWidth: .infinity)
             }
             .buttonStyle(.bordered)
             .controlSize(.large)
+            .controlProminence(.standard)
+            .padding(.horizontal)
+            
+            Button {
+                // Don't do this
+            } label: {
+                Text("regular, standard prominence")
+                    .frame(maxWidth: .infinity)
+            }
+            .buttonStyle(.bordered)
+            .controlSize(.regular)
+            .controlProminence(.standard)
+            .padding(.horizontal)
+            
+            Button {
+                // Do this
+            } label: {
+                Text("small, standard prominence")
+                    .frame(maxWidth: .infinity)
+            }
+            .buttonStyle(.bordered)
+            .controlSize(.small)
             .controlProminence(.standard)
             .padding(.horizontal)
         }
