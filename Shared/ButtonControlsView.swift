@@ -12,7 +12,7 @@ struct ButtonControlsView: View {
         VStack(spacing: 20) {
             
             Button {
-                // Do this
+                print("First button")
             } label: {
                 Text("large, increased prominence")
                     .frame(maxWidth: .infinity)
@@ -23,7 +23,7 @@ struct ButtonControlsView: View {
             .padding(.horizontal)
             
             Button {
-                // Don't do this
+                print("Second button")
             } label: {
                 Text("large, standard prominence")
                     .frame(maxWidth: .infinity)
@@ -34,7 +34,7 @@ struct ButtonControlsView: View {
             .padding(.horizontal)
             
             Button {
-                // Don't do this
+                print("Third button")
             } label: {
                 Text("regular, standard prominence")
                     .frame(maxWidth: .infinity)
@@ -45,7 +45,7 @@ struct ButtonControlsView: View {
             .padding(.horizontal)
             
             Button {
-                // Do this
+                print("Fourth button")
             } label: {
                 Text("small, standard prominence")
                     .frame(maxWidth: .infinity)
