@@ -9,7 +9,16 @@ import SwiftUI
 
 struct BlurEffectView: View {
     var body: some View {
-        Text(/*@START_MENU_TOKEN@*/"Hello, World!"/*@END_MENU_TOKEN@*/)
+        ZStack {
+            Image("singapore")
+                .resizable()
+                .scaledToFit()
+
+            Text("Visit Singapore")
+                .padding()
+                .background(.ultraThinMaterial)
+                .cornerRadius(16)
+        }
     }
 }
 
