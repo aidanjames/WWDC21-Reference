@@ -14,10 +14,24 @@ struct BlurEffectView: View {
                 .resizable()
                 .scaledToFit()
 
-            Text("Visit Singapore")
-                .padding()
-                .background(.ultraThinMaterial)
-                .cornerRadius(16)
+            VStack {
+                Text("Ultra thin material")z`
+                    .padding()
+                    .background(.ultraThinMaterial)
+                    .cornerRadius(16)
+                Text("Thin material")
+                    .padding()
+                    .background(.thinMaterial)
+                    .cornerRadius(16)
+                Text("Thick material")
+                    .padding()
+                    .background(.thickMaterial)
+                    .cornerRadius(16)
+                Text("Ultra thick material")
+                    .padding()
+                    .background(.ultraThickMaterial)
+                    .cornerRadius(16)
+            }
         }
     }
 }
