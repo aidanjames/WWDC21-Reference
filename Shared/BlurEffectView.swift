@@ -15,7 +15,7 @@ struct BlurEffectView: View {
                 .scaledToFit()
 
             VStack {
-                Text("Ultra thin material")z`
+                Text("Ultra thin material")
                     .padding()
                     .background(.ultraThinMaterial)
                     .cornerRadius(16)
