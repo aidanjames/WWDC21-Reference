@@ -32,6 +32,7 @@ struct DismissActionView: View {
             Button("Dismiss") { dismiss() }
             .buttonStyle(.bordered)
         }
+        .interactiveDismissDisabled()
     }
 }
 
